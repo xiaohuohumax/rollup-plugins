@@ -1,6 +1,6 @@
 {
   "name": "@xiaohuohumax/rollup-plugin-file-base64",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rollup 插件: 将文件以 base64 格式导入, 并且添加媒体类型",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
