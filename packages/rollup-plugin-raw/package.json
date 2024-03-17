@@ -1,6 +1,6 @@
 {
   "name": "@xiaohuohumax/rollup-plugin-raw",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rollup 插件: 将文件以字符串导入",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
