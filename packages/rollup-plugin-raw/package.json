@@ -1,0 +1,40 @@
+{
+  "name": "@xiaohuohumax/rollup-plugin-raw",
+  "version": "0.0.0",
+  "description": "Rollup 插件: 将文件以字符串导入",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "rollup -c --watch --watch.include src/**",
+    "build": "rimraf dist && rollup -c"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "file",
+    "base64"
+  ],
+  "author": "xiaohuohumax",
+  "license": "MIT",
+  "homepage": "https://github.com/xiaohuohumax/rollup-plugins/tree/main/packages/rollup-plugin-raw#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuohumax/rollup-plugins.git",
+    "directory": "packages/rollup-plugin-raw"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./client": {
+      "types": "./client.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "client.d.ts"
+  ]
+}

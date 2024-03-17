@@ -1,0 +1,15 @@
+{
+  "name": "@xiaohuohumax/examples-rollup-plugin-raw",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "xiaohuohumax",
+  "license": "MIT",
+  "devDependencies": {
+    "@xiaohuohumax/rollup-plugin-raw": "workspace:^",
+    "vite-node": "^1.4.0"
+  }
+}

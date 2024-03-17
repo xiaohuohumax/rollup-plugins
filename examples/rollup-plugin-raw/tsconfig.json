@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": [
+      "@xiaohuohumax/rollup-plugin-raw/client",
+    ],
+    "lib": [
+      "DOM",
+      "ES6"
+    ],
+    "resolveJsonModule":true
+  },
+  "include": [
+    "src"
+  ]
+}

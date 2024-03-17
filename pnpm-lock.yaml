@@ -54,6 +54,15 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0(@types/node@20.11.28)
 
+  examples/rollup-plugin-raw:
+    devDependencies:
+      '@xiaohuohumax/rollup-plugin-raw':
+        specifier: workspace:^
+        version: link:../../packages/rollup-plugin-raw
+      vite-node:
+        specifier: ^1.4.0
+        version: 1.4.0(@types/node@20.11.28)
+
   packages/rollup-plugin-file-base64:
     dependencies:
       mime-types:
@@ -63,6 +72,8 @@ importers:
       '@types/mime-types':
         specifier: ^2.1.4
         version: 2.1.4
+
+  packages/rollup-plugin-raw: {}
 
 packages:
 
